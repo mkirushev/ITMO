@@ -1,0 +1,7 @@
+rm -f lab0/graveler
+rm -f lab0/roserade/squirtle
+rm -f lab0/Copy_94
+chmod u+rwx lab0/roserade
+rm -f lab0/roserade/squirtlegraveler
+rm -rf lab0/roserade
+rm -rf lab0/vaporeon/litwick

@@ -1,0 +1,40 @@
+mkdir lab0
+cd lab0
+touch crawdaunt
+mkdir dugtrio
+cd dugtrio
+mkdir houndour
+touch pidgeot
+mkdir magmar
+touch quagsire
+mkdir rhydon
+touch jynx
+cd ..
+touch graveler
+touch oshawott
+mkdir roserade
+cd roserade
+mkdir beartic
+touch gallade
+mkdir electabuzz
+touch squirtle
+cd ..
+mkdir vaporeon
+cd vaporeon
+mkdir carracosta
+touch sharpedo
+mkdir raichu
+touch zigzagoon
+mkdir litwick
+cd ..
+
+echo "weigth=72.3 height=43.0 atk=12 def=9" > crawdaunt
+echo "weigth=87.1 height=59.0 atk=8 def=8" > dugtrio/pidgeot
+echo "Развитые способности = Unaware" > dugtrio/quagsire
+echo "Способности = Lick Lovely Kiss Powder\nSnow Doubleslap Ice Punch Heart Stamp\nMean Look Fake Tears Wake-Up Slap\nAvalanche Body Slam Wring Out Perish\nSong Blizzard" >> dugtrio/jynx
+echo "Ходы = Ancientpower Block Body Slam\nCounter Dynamicpunch Earth Power Fire\nPunch Focus Punch Iron Defense Mega\nPunch Metronome Mud-Slap Rollout Seismic\nToss Sleep Talk Snore Stealth Rock\nSucker Punch Superpower Thunderpunch" >> graveler
+echo "Тип покемона = WATER NONE" >> oshawott
+echo "Тип диеты = Omnivore" >> roserade/gallade
+echo "satk=squirtle sdef=6 spd=4" >> roserade/squirtle
+echo "Тип покемона = WATER DARK" >> vaporeon/sharpedo
+echo "Тип покемона = NORMAL NONE" >> vaporeon/zigzagoon

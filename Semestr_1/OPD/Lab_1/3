@@ -1,0 +1,21 @@
+chmod u+r lab0/dugtrio
+chmod u+r lab0/dugtrio/houndour
+cp -r lab0/dugtrio lab0/dugtrio/rhydon
+chmod u-r lab0/dugtrio/houndour
+chmod u-r lab0/dugtrio
+
+chmod u+w lab0/roserade
+ln lab0/graveler lab0/roserade/squirtlegraveler
+chmod u-w lab0/roserade
+
+cat lab0/dugtrio/jynx lab0/roserade/squirtle > lab0/graveler_36
+
+ln -s lab0/vaporeon lab0/Copy_94
+
+chmod u+r lab0/crawdaunt
+cp lab0/crawdaunt lab0/vaporeon/carracosta
+chmod u-r lab0/crawdaunt
+
+ln -s lab0/graveler lab0/dugtrio/pidgeotgraveler
+
+cp lab0/oshawott lab0/dugtrio/quagsireoshawott
