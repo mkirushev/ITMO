@@ -2,13 +2,15 @@ echo "---Task 1---"
 #chmod u+r lab0/dugtrio
 wc -m lab0/dugtrio/* 2>/dev/null | sort -n
 #chmod u-r lab0/dugtrio
-echo "\n---Task 2---"
+echo -e "\n---Task 2---"
 ls -lR lab0 2>/tmp/errors | grep 'n$' | sort -k5 -nr
-echo "\n---Task 4---"
+echo -e "\n---Task 3---"
+ls -r lab0 | grep "^g" | sort
+echo -e "\n---Task 4---"
 cat lab0/dugtrio/pidgeout lab0/dugtrio/quagsire lab0/dugtrio/jynx lab0/roserade/gallade 2>/tmp/errors | grep 'h$'
-echo "\n---Task 5---"
+echo -e "\n---Task 5---"
 ls -lt lab0/vaporeon
-echo "\n---Task 6---"
+echo -e "\n---Task 6---"
 #chmod u+r lab0/dugtrio
 grep -Riv 'he' lab0/dugtrio 2>/dev/null
 #chmod u-r lab0/dugtrio
