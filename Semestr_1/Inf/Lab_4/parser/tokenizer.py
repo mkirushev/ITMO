@@ -85,6 +85,3 @@ def tokenize(text: str) -> list[Token]:
 def printTokens(tokens: list[Token]):
     for token in tokens:
         print(token)
-
-
-printTokens(tokenize())
